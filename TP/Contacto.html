@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Style.css" />
+    <title>Siempre Argentina</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <ul>
+          <li class="menu">
+            <a href="./Proyecto Practicas/index.html">Inicio </a>
+          </li>
+          <li class="menu">
+            <a href="./Proyecto Practicas/Casacas.html">Casacas </a>
+          </li>
+          <li class="menu"><a href="./Contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </header>
+
+
+<form action="">
+    <!--crear tabla, esta el recuadro, pero falto la tabla, malisimo-->
+    <fieldset>
+      <legend>Contacto</legend>
+
+      <label for="Nombre:">Nombre</label>
+      <input class="i1" type="text" id="Nombre" placeholder="Nombre de pila" />
+
+      <label for="Correo:">Correo</label>
+      <input class="i1" type="email" id="Nombre" placeholder="Correo solo Gmail" />
+
+      <label for="Motivo del contacto:">Motivo del contacto</label>
+      <select class="i1" name="Motivo" id="Motivo">
+        <option value="Compra">Compra</option>
+        <option value="Reclamo">Reclamo</option>
+      </select>
+
+      <label for="Ubicacion:">De donde nos contacta</label>
+      <select class="i1" name="Ubicacion" id="Ubicacion">
+        <option value="CABA">CABA</option>
+        <option value="GBA Sur">GBA Sur</option>
+        <option value="GBA Norte">GBA Norte</option>
+        <option value="Gran Buenos Aires">Gran Buenos Aires</option>
+      </select>
+
+      <label for="Consulta">Ingrese detalladamente su consulta</label>
+      <textarea
+        name=""
+        id="Consulta"
+        cols="30"
+        rows="10"
+        placeholder="Nunca brindes datos de tu tarjeta de cobro"
+      ></textarea>
+
+      <div class="Botones2">
+        <input
+          class="BotonesConsulta"
+          type="submit"
+          value="Enviar"
+          aria-roledescription="de 24 a 48 hs"
+        />
+
+        <!--generar condicion que genere un msj que indique que la respuesta tarda 
+                de 24 a 48hs y que luego al aceptarlo en tenvie al inicio -->
+
+        <input class="BotonesConsulta" type="reset" value="Limpiar" />
+      </div>
+    </div>
+    </fieldset>
+  </form>

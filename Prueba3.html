@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="pruenastyle.css" />
+<html lang="en">
+  <head>
+    <title>Mauro Prueba</title>
+  </head>
+
+  <div>
+    <form action="">
+    <fieldset>
+      <legend>Contacto</legend>
+
+      <label> Nombre y Apellido</label>
+      <input type="text" placeholder="ingrese nombre y apellido" class="campos"/>
+
+      <label> CUIL</label>
+      <input type="text" placeholder="Ingrese su CUIL (sin guiones)" class="campos"/>
+
+      <label> Telefono</label>
+      <input type="text" placeholder="Ingrese su Telefono" class="campos"/>
+
+      <label> Oficina mas cercana</label>
+      <select name="Oficina mas cercana" class="campos">
+        <option value="Default">--------</option>
+        <option value="Varela">Varela</option>
+        <option value="Quilmes">Quilmes</option>
+        <option value="Berazategui">Berazategui</option>
+      </select>
+      
+      <label> Ingrese su consulta</label>
+      <textarea name="Consulta" class="campos" placeholder="Ingrese su consulta"></textarea>
+
+
+        <div class="Boton2">
+        <input type="submit" value="Enviar" class="Boton" />
+        <input type="reset" value="Limpiar" class="Boton" />
+        </div>
+    </form>
+    </fieldset>
+  </div>
+</html>

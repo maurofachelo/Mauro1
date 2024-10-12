@@ -1,0 +1,170 @@
+*   {
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    text-decoration: none;
+    list-style-type: none;
+    background-color: white
+    }
+
+    /*---------------------menu ---------------------------------*/
+    .menu{
+    display: inline-flex ;
+            }
+
+    /*li {
+         margin-right: 25px;
+    }*/
+
+    div ul {
+        background-color: black;
+        text-align: right; 
+        font-size: 25px;
+        font-weight: bold;
+        }
+
+     header div ul li a {
+        background-color:black;
+        color: white;
+        padding-left: 20px;
+            } 
+
+
+    /*---------------------BODY ----------Titulo-----------------------*/
+
+    h1 a{ 
+        font-size: 75px;
+    }
+
+    h1{
+        background-image: url(./img-banner4.jpg);
+        /*background-size: cover; /* Para que la imagen cubra todo el fondo */
+        background-position: right left;
+        background-repeat:no-repeat;
+        /*background-position: center; /* Para centrar la imagen */
+        /*height: 200px; /* Para que ocupe toda la altura de la ventana */
+        /*margin: 0;*/
+        text-align: center;
+        /*margin-top: 35px;
+        margin-bottom: 35px;*/
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+
+        /*---------------------BODY ---------- Portada -----------------------*/
+
+        .fotos{ 
+            width: 700px;
+            height: 450px;
+            margin: 20px;
+
+        }
+
+        .fotoDelMedio{            
+            width: 700px;
+            height: 450px;
+            text-align: right;
+            margin: 20px;
+        }
+
+        section div{
+            display: inline-flex;
+        }
+
+        section div p{
+            width: 700px;
+            height: 450px;
+            margin: 20px;
+            font-size: 28px;
+        }
+
+
+                /*---------------------BODY ---------- Footer -----------------------*/
+
+        
+        footer div p {
+            font-size: 20px;
+            text-align: center;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+        }
+
+        .redes {
+            display: inline-flex;
+            background-color: white; 
+            /*width: 40px;
+            height: 40px;*/
+
+        }
+
+        footer div ul{
+            background-color: white;
+            text-align: center;            
+        }
+
+        .logos{
+            width: 50px;
+            height: 50px;
+        }
+
+    /*---------------------PAGINA DE CONTACTO-----------------------*/
+        /*---------------------PAGINA DE CONTACTO-----------------------*/
+            /*---------------------PAGINA DE CONTACTO-----------------------*/
+                /*---------------------PAGINA DE CONTACTO-----------------------*/
+                    /*---------------------PAGINA DE CONTACTO-----------------------*/
+                        /*---------------------PAGINA DE CONTACTO-----------------------*/
+                            /*---------------------PAGINA DE CONTACTO-----------------------*/
+                                /*---------------------PAGINA DE CONTACTO-----------------------*/
+
+
+        form{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            /*background-image: url(./background\ img45.jpg);
+            background-repeat:no-repeat;*/
+        }
+
+
+        fieldset {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            width: 500px;
+            height: 600px;
+            margin-bottom: 20px;
+            border-color: black;
+            border-width: 3px;
+            /*border-radius: 30px;*/
+            
+            /*border-bottom: 10px;
+            width: 1400px;
+            border-width: 30px;*/
+            background-color: white;
+
+            background-image: url(./background\ img45.jpg);
+            background-repeat:no-repeat;
+            background-position: center center;
+            }
+
+        legend{
+            font-size: 40px;
+            text-align: center;
+            /*background-color: black;
+            color: white;
+            font-weight: bold; */              
+        }
+
+        label {
+            margin-top: 20px;
+            font-weight: bold;            
+        }
+
+        input, select, textarea{
+            margin-top: 8px;
+        }
+    

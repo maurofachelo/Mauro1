@@ -1,0 +1,30 @@
+fieldset {
+    
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    display: flex;    
+    flex-direction: column;
+    background-color: rgb(119, 251, 132);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 80%;
+}
+
+.campos{
+        text-align: center;
+        width: 75%;
+}
+
+form {
+
+   align-items: center;
+}
+
+.Boton{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    }
+
+.boton2{
+}

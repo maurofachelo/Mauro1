@@ -3,48 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Conctato</title>
   </head>
+
   <body>
     <header>
       <nav>
         <ul>
-          Menu
-          <li><a href="./index.html">Inicio</a></li>
-          <li><a href="./Tramites.html">Tramites</a></li>
-          <li><a href="./Autogestion.html">Autogestion</a></li>
-          <li><a href="./Noticias.html">Noticias</a></li>
-          <li><a href="./Contacto.html">Contacto</a></li>
+          <li class="menu"><a href="./index.html">Inicio</a></li>
+          <li class="menu"><a href="./Tramites.html">Tramites</a></li>
+          <li class="menu"><a href="./Autogestion.html">Autogestion</a></li>
+          <li class="menu"><a href="./Noticias.html">Noticias</a></li>
+          <li class="menu BordeMenu"><a href="./Contacto.html">Contacto</a></li>
+          <!-- ver, el ultimo elemento li "contacto" tiene 2 clases-->
         </ul>
       </nav>
     </header>
 
     <main>
-      <h1><a href="./index.html">Proyecto ANSES+</a></h1>
+      <h1 class="index"><a href="./index.html">Proyecto ANSES+</a></h1>
       <img
-        src="https://santaelenadigital.com.ar/web/wp-content/uploads/2020/04/ansesife-960x960.png"
+        src="TTTTTTTThttps://santaelenadigital.com.ar/web/wp-content/uploads/2020/04/ansesife-960x960.png"
         alt="Logo ANSES+"
       />
 
+      <div class="Cuadro">
       <form action="">
         <!--crear tabla, esta el recuadro, pero falto la tabla, malisimo-->
         <fieldset>
           <legend>Contacto</legend>
 
           <label for="CUIL">CUIL</label>
-          <input type="number" id="CUIL:" placeholder="numeros sin guiones" />
+          <input class="i1" type="number" id="CUIL:" placeholder="numeros sin guiones" />
 
           <label for="Nombre:">Nombre</label>
-          <input type="text" id="Nombre" placeholder="Nombre de pila" />
+          <input class="i1" type="text" id="Nombre" placeholder="Nombre de pila" />
 
           <label for="Correo:">Correo</label>
-          <input type="email" id="Nombre" placeholder="Correo solo Gmail" />
+          <input class="i1" type="email" id="Nombre" placeholder="Correo solo Gmail" />
 
           <label for="Nacionalidad:">Selecciones su Nacionalidad</label>
-          <select name="Nacionalidad" id="Nacionalidad">
+          <select class="i1" name="Nacionalidad" id="Nacionalidad">
             <option value="Messi papá">Argentina</option>
             <option value="USA">Estados Unidos</option>
-            <option value="caca">Chile</option>
+            <option value="Chile">Chile</option>
           </select>
 
           <label for="Consulta">Ingrese detalladamente su consulta</label>
@@ -56,35 +59,40 @@
             placeholder="Nunca brindes datos de tu tarjeta de cobro"
           ></textarea>
 
-          <input
-            type="submit"
-            value="Enviar"
-            aria-roledescription="de 24 a 48 hs"
-          />
+          <div class="Botones2">
+            <input
+              class="BotonesConsulta"
+              type="submit"
+              value="Enviar"
+              aria-roledescription="de 24 a 48 hs"
+            />
 
-          <!--generar condicion que genere un msj que indique que la respuesta tarda 
+            <!--generar condicion que genere un msj que indique que la respuesta tarda 
                     de 24 a 48hs y que luego al aceptarlo en tenvie al inicio -->
 
-          <input type="reset" value="Limpiar" />
+            <input class="BotonesConsulta" type="reset" value="Limpiar" />
+          </div>
+        </div>
         </fieldset>
       </form>
     </main>
 
     <footer>
-      <ul>
-        Realiza tramites en Anses desde tu casa
-        <li>Gratis desde cualquier telefono al 130</li>
+      <p>Realiza tramites de Anses desde tu casa</p>
+      <ul class="TramitesOnline">
+        <li>Desde la opcion Contacto</li>
+        <!--generar comentario al pasar con el cursor sobre la frase del 130, en donde indique horario de 8 a 18hs-->
         <li>
           <a
             href="https://servicioscorp.anses.gob.ar/clavelogon/logon.aspx?system=miansesv2"
-          ></a>
-          Desde Mi Anses
+            >Desde Mi Anses</a
+          >
         </li>
         <li>
           <a
             href="https://www.anses.gob.ar/trabajo/desempleo/desempleo-para-trabajadores-en-relacion-de-dependencia"
-          ></a>
-          Atencion Virtual
+            >Atencion Virtual</a
+          >
         </li>
       </ul>
     </footer>
